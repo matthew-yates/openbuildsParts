@@ -13,3 +13,5 @@ vSlot2040.scad --> model of [20x40 mm V-slot linear rail](https://openbuildspart
 vSlot2060.scad --> model of [20x60 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x60-linear-rail/).
 
 vSlot2080.scad --> model of [20x80 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x80-linear-rail/).
+
+vSlot4040.scad --> model of [20x80 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-40x40-linear-rail/).
