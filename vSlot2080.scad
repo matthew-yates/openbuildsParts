@@ -37,21 +37,24 @@ module mids(){
     translate([-2.7,3.761,0]) rotate([0,0,45]) translate([-1.5,0,0]) square([1.5,4.808]);
 }
  
-module vslot2060(){
+module vslot2080(){
    corner();
-   translate([60,0,0]) rotate([0,0,90]) corner();
-   translate([60,20,0]) rotate([0,0,180]) corner();
+   translate([80,0,0]) rotate([0,0,90]) corner();
+   translate([80,20,0]) rotate([0,0,180]) corner();
    translate([0,20,0]) rotate([0,0,270]) corner();
    translate([20,0,0]) mids();
    translate([20,20]) rotate([0,0,180]) mids();
    translate([40,0,0]) mids();
    translate([40,20]) rotate([0,0,180]) mids();
+   translate([60,0,0]) mids();
+   translate([60,20]) rotate([0,0,180]) mids();
    translate([10,10,0]) center(l=1,r=0,t=1,b=1);
    translate([30,10,0]) center(l=0,r=0,t=1,b=1);
-   translate([50,10,0]) center(l=0,r=1,t=1,b=1);
+   translate([50,10,0]) center(l=0,r=0,t=1,b=1);
+   translate([70,10,0]) center(l=0,r=1,t=1,b=1);
 }
  
  // linear extrude height is desired length of v-slot
  color("slategray"){
-     linear_extrude(height=100) vslot2060();
+     linear_extrude(height=100) vslot2080();
  }
