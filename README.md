@@ -9,3 +9,5 @@ cBeamEndMount.scad --> model of the [C-Beam End Mount](https://openbuildspartsto
 vSlot2020.scad --> model of [20x20 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x20-linear-rail/).
 
 vSlot2040.scad --> model of [20x40 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x40-linear-rail/).
+
+vSlot2060.scad --> model of [20x60 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x60-linear-rail/).
