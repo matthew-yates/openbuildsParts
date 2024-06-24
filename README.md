@@ -5,10 +5,15 @@ Created parametric models of some Openbuilds parts using OpenSCAD.  These were c
 The file "vSlots.scad" creates an OpenSCAD function named "vslot" that can be used to generate models of Openbuilds V-Slot linear rail. The function "vslot" take two parameters "length" and "type". The length is the desired length of rail to be modeled (in mm). The "type" parameter accepts: 2020, 2040, 2060, 2080, 4040, and "cbeam", which models the following types of rail:
 
 [20x20 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x20-linear-rail/)
+
 [20x40 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x40-linear-rail/)
+
 [20x60 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x60-linear-rail/)
+
 [20x80 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-20x80-linear-rail/)
+
 [40x40 mm V-slot linear rail](https://openbuildspartstore.com/v-slot-40x40-linear-rail/)
+
 [C-Beam linear rail](https://openbuildspartstore.com/c-beam-linear-rail/)
 
 If file "vSlots.scad" is saved in the same working directory used for modeling, the following example code:
