@@ -60,6 +60,7 @@ Results in the model illustrated in the image below.
 
 ![Stepper Motor Examples](https://github.com/matthew-yates/openbuildsParts/blob/main/images/motors.png)
 
+## Other Parts
 In addition to the V-slot modeling function, the following models are provided:
 
 antiBacklashNut.scad --> [Anti-Backlash Nut for Acme 8mm Screw](https://openbuildspartstore.com/anti-backlash-nut-block-for-8mm-metric-acme-lead-screw/)
