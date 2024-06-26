@@ -67,7 +67,9 @@ module midc(){
         }
     square(1.8);
     translate([1.739,0.739,0]) rotate([0,0,45]) square([7.581,1.5]);}
-// vslot parameters "length" in mm, type is 2020, 2030, 2040, 2060, 2080, or 4040
+//
+// vslot module parameters "length" in mm, type is 2020, 2040, 2060, 2080, 4040, or "cbeam"
+//
 module vslot(length=100,type=4040){
     linear_extrude(length){
         if(type==4040){
@@ -151,7 +153,5 @@ module vslot(length=100,type=4040){
                 translate([30,10,0]) center(l=0,r=0,t=1,b=1);
                 translate([50,10,0]) center(l=0,r=0,t=1,b=1);
                 translate([70,30,0]) center(l=1,r=1,t=1,b=0);
-                translate([70,10,0]) center(l=0,r=1,t=0,b=1);}}
-    }
-}
- // 
+                translate([70,10,0]) center(l=0,r=1,t=0,b=1);}}}}
+ //
