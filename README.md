@@ -65,6 +65,6 @@ In addition to the V-slot modeling function, the following models are provided:
 
 antiBacklashNut.scad --> [Anti-Backlash Nut for Acme 8mm Screw](https://openbuildspartstore.com/anti-backlash-nut-block-for-8mm-metric-acme-lead-screw/)
 
-buildPlate.scad --> [Build Plate](https://openbuildspartstore.com/build-plate/).
+buildPlate.scad --> [Build Plate](https://openbuildspartstore.com/build-plate/)
 
-cBeamEndMount.scad --> [C-Beam End Mount](https://openbuildspartstore.com/c-beam-end-mount/).
+cBeamEndMount.scad --> [C-Beam End Mount](https://openbuildspartstore.com/c-beam-end-mount/)
