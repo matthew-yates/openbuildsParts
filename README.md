@@ -60,11 +60,29 @@ Results in the model illustrated in the image below.
 
 ![Stepper Motor Examples](https://github.com/matthew-yates/openbuildsParts/blob/main/images/motors.png)
 
+## Spacers
+The "spacers.scad" file provides OpenSCAD functions "spacerAl" and spacerNylon" that model these two parts:
+
+[Aluminum spacers](https://openbuildspartstore.com/aluminum-spacers-10-pack/)
+
+[Nylon spacers](https://openbuildspartstore.com/nylon-spacers-10-pack/)
+
+Both of these functions accept a "length" argument for spacer length in mm.  For example: spacerAl(length=40); will produce a 40 mm aluminum spacer.
+
+## Plates
+The "plates.scad" file provides OpenSCAD functions "buildPlate" and "cBeamEndMount" that model the following parts:
+
+[C-Beam End Mount](https://openbuildspartstore.com/c-beam-end-mount/)
+
+[Build Plate](https://openbuildspartstore.com/build-plate/)
+
 ## Other Parts
-In addition to the V-slot modeling function, the following models are provided:
+The following models are also provided:
 
 antiBacklashNut.scad --> [Anti-Backlash Nut for Acme 8mm Screw](https://openbuildspartstore.com/anti-backlash-nut-block-for-8mm-metric-acme-lead-screw/)
 
-buildPlate.scad --> [Build Plate](https://openbuildspartstore.com/build-plate/)
+## Example of using functions to build a machine model
 
-cBeamEndMount.scad --> [C-Beam End Mount](https://openbuildspartstore.com/c-beam-end-mount/)
+The file "cBeamMachine.scad" is an example of combining the functions to build a machine.  It provides a rough model of the [C-beam machine](https://openbuildspartstore.com/openbuilds-c-beam-machine/).  An image of this model is shown below.
+
+![C-beam Machine](https://github.com/matthew-yates/openbuildsParts/blob/main/images/cBeamMachine.png)
