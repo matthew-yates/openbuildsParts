@@ -81,6 +81,8 @@ The following models are also provided:
 
 antiBacklashNut.scad --> [Anti-Backlash Nut for Acme 8mm Screw](https://openbuildspartstore.com/anti-backlash-nut-block-for-8mm-metric-acme-lead-screw/)
 
+spindleMount.scad --> [Router Spindle Mount](https://openbuildspartstore.com/router-spindle-mount/)
+
 ## Example of using functions to build a machine model
 
 The file "cBeamMachine.scad" is an example of combining the functions to build a machine.  It provides a rough model of the [C-beam machine](https://openbuildspartstore.com/openbuilds-c-beam-machine/).  An image of this model is shown below.
