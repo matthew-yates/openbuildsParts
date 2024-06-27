@@ -76,6 +76,8 @@ The "plates.scad" file provides OpenSCAD functions "buildPlate" and "cBeamEndMou
 
 [Build Plate](https://openbuildspartstore.com/build-plate/)
 
+[90 Degree Joining Plate](https://openbuildspartstore.com/90-degree-joining-plate/)
+
 ## Other Parts
 The following models are also provided:
 
