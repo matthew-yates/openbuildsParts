@@ -83,6 +83,8 @@ The following models are also provided:
 
 antiBacklashNut.scad --> [Anti-Backlash Nut for Acme 8mm Screw](https://openbuildspartstore.com/anti-backlash-nut-block-for-8mm-metric-acme-lead-screw/)
 
+![Anti-backlash Nut for 8mm Acme Lead Screw](https://github.com/matthew-yates/openbuildsParts/blob/main/images/antBacklashNut.png)
+
 spindleMount.scad --> [Router Spindle Mount](https://openbuildspartstore.com/router-spindle-mount/)
 
 ## Example of using functions to build a machine model
