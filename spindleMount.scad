@@ -3,7 +3,7 @@ $fs = 0.4;
 //
 // front part
 union(){
-    difference(){
+    color("slategray"){difference(){
         hull(){
             translate([1.4,1.4]) cylinder(r=1.4,h=20);
             translate([89.4,1.4]) cylinder(r=1.4,h=20);
@@ -17,9 +17,9 @@ union(){
             translate([20.45,-1,6]) rotate([270,0,0]) cylinder(r=2.5,h=2);
             translate([20.45,-1,14]) rotate([270,0,0]) cylinder(r=2.5,h=2);
             translate([70.35,-1,6]) rotate([270,0,0]) cylinder(r=2.5,h=2);
-            translate([70.35,-1,14]) rotate([270,0,0]) cylinder(r=2.5,h=2);}}
-    translate([19,2,7]) rotate([90,0,0]) linear_extrude(2){text("OPENBUILDS",size=6);}
-    difference(){
+            translate([70.35,-1,14]) rotate([270,0,0]) cylinder(r=2.5,h=2);}}}
+    color("white"){translate([19,2,7]) rotate([90,0,0]) linear_extrude(2){text("OPENBUILDS",size=6);}}
+    color("slategray"){difference(){
         hull(){
             translate([23.05,18.994,0]) cylinder(r=1.3,h=20);
             translate([67.75,18.994,0]) cylinder(r=1.3,h=20);
@@ -31,10 +31,10 @@ union(){
         translate([18.75,15,,-1]) cylinder(r=3,h=22);}
     difference(){
         translate([69.05,12,0]) cube([3,3,20]);
-        translate([72.05,15,,-1]) cylinder(r=3,h=22);}}
+        translate([72.05,15,,-1]) cylinder(r=3,h=22);}}}
 //        
 // back part
-translate([0,14,0]) union(){
+translate([0,14,0]) color("slategray"){union(){
     difference(){
         hull(){
             cube([5,5,20]);
@@ -56,12 +56,5 @@ translate([0,14,0]) union(){
         translate([15.4,74.8,-1]) cylinder(r=2.1,h=22);
         translate([25.4,74.8,-1]) cylinder(r=2.1,h=22);
         translate([65.4,74.8,-1]) cylinder(r=2.1,h=22);
-        translate([75.4,74.8,-1]) cylinder(r=2.1,h=22);}}
-    
-    
-    
-    
-    
-    
-    
-    
+        translate([75.4,74.8,-1]) cylinder(r=2.1,h=22);}}}
+//
