@@ -2,6 +2,7 @@ include <vSlots.scad>;
 include <motors.scad>;
 include <spacers.scad>;
 include <plates.scad>;
+include <connectors.scad>;
 
 // main structural frame
 color("lightgray"){
@@ -61,6 +62,34 @@ color("lightgray"){
 
 // build plate
 translate([165,100,75]) buildPlate();
+
+// 90 degree joining plates
+translate([20,440,254]) rotate([180,0,0]) join90deg();
+translate([520,440,254]) rotate([0,180,90]) join90deg();
+
+// corner brackets
+translate([20,422.5,60]) rotate([90,0,180]) cornerBracket();
+translate([20,482.5,60]) rotate([90,0,180]) cornerBracket();
+translate([20,18.5,20]) rotate([90,0,0]) cornerBracket();
+translate([20,58.5,20]) rotate([90,0,0]) cornerBracket();
+translate([20,378.5,20]) rotate([90,0,0]) cornerBracket();
+translate([230,1.5,20]) rotate([90,0,180]) cornerBracket();
+translate([230,401.5,20]) rotate([90,0,180]) cornerBracket();
+translate([310,18.5,20]) rotate([90,0,0]) cornerBracket();
+translate([310,418.5,20]) rotate([90,0,0]) cornerBracket();
+translate([520,1.5,20]) rotate([90,0,180]) cornerBracket();
+translate([520,41.5,20]) rotate([90,0,180]) cornerBracket();
+translate([520,362.5,20]) rotate([90,0,180]) cornerBracket();
+translate([520,438.5,60]) rotate([90,0,0]) cornerBracket();
+translate([520,498.5,60]) rotate([90,0,0]) cornerBracket();
+translate([38.5,420,20]) rotate([90,0,270]) cornerBracket();
+translate([78.5,420,20]) rotate([90,0,270]) cornerBracket();
+translate([478.5,420,20]) rotate([90,0,270]) cornerBracket();
+translate([518.5,420,20]) rotate([90,0,270]) cornerBracket();
+translate([40,440,0]) cornerBracket();
+translate([40,440,233]) cornerBracket();
+translate([500,440,0]) rotate([0,0,90]) cornerBracket();
+translate([500,440,233]) rotate([0,0,90]) cornerBracket();
 
 // simple cylinders to model lead screws
     // x-axis
