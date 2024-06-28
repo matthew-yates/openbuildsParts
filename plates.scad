@@ -136,14 +136,3 @@ difference(){
     translate([40,17.6,-1]) cylinder(r=8.05,h=5.5);
 }}}
 //
-// 90 degree joining plate
-module join90deg(){color("silver"){
-    difference(){
-        cube([60,60,4]);
-        translate([10,10,-1]) cylinder(r=2.65,h=6);
-        translate([30,10,-1]) cylinder(r=2.65,h=6);
-        translate([50,10,-1]) cylinder(r=2.65,h=6);
-        translate([10,30,-1]) cylinder(r=2.65,h=6);
-        translate([10,50,-1]) cylinder(r=2.65,h=6);
-        translate([60,20,-1]) rotate([0,0,45]) cube([60,60,6]);}}}
-//
