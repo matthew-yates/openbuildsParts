@@ -77,11 +77,13 @@ The "plates.scad" file provides OpenSCAD functions "buildPlate" and "cBeamEndMou
 [Build Plate](https://openbuildspartstore.com/build-plate/)
 
 ## Connectors
-The "connectors.scad" file provides OpenSCAD functions "join90deg" and "cornerBracket" that model the following parts:
+The "connectors.scad" file provides OpenSCAD functions "join90deg", "cornerBracket", and "lockCollar8mm" that model the following parts:
 
 [90 Degree Joining Plate](https://openbuildspartstore.com/90-degree-joining-plate/)
 
 [Cast Corner Bracket](https://openbuildspartstore.com/cast-corner-bracket/)
+
+[Lock Collar (8 mm)](https://openbuildspartstore.com/lock-collar/)
 
 ## Other Parts
 The following models are also provided:
