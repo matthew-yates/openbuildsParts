@@ -91,6 +91,17 @@ translate([40,440,233]) cornerBracket();
 translate([500,440,0]) rotate([0,0,90]) cornerBracket();
 translate([500,440,233]) rotate([0,0,90]) cornerBracket();
 
+//lock collars
+    //x-axis
+    translate([20,387.8,210.1]) rotate([0,90,0]) lockCollar8mm();
+    translate([513,387.8,210.1]) rotate([0,90,0]) lockCollar8mm();
+    //x-axis
+    translate([270,0,52.5]) rotate([270,0,0]) lockCollar8mm();
+    translate([270,493,52.5]) rotate([270,0,0]) lockCollar8mm();
+    //z-axis
+    translate([210.2,347.4,100]) lockCollar8mm();
+    translate([210.2,347.4,343]) lockCollar8mm();
+
 // simple cylinders to model lead screws
     // x-axis
     translate([8,387.8,210.1]) rotate([0,90,0]) cylinder(r=4,h=540);
@@ -98,3 +109,11 @@ translate([500,440,233]) rotate([0,0,90]) cornerBracket();
     translate([270,-12,52.5]) rotate([270,0,0]) cylinder(r=4,h=540);
     // z-axis
     translate([210.2,347.4,88]) cylinder(r=4,h=290);
+
+// simple cylinders to model motor couplers
+    // x-axis
+    translate([538,387.8,210.1]) rotate([0,90,0]) cylinder(r=9.75,h=25);
+    // y-axis
+    translate([270,518,52.5]) rotate([270,90,0]) cylinder(r=9.75,h=25);
+    // z-axis
+    translate([210.2,347.4,369]) cylinder(r=9.75,h=25);
