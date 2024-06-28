@@ -12,7 +12,7 @@ module join90deg(){color("silver"){
         translate([10,50,-1]) cylinder(r=2.65,h=6);
         translate([60,20,-1]) rotate([0,0,45]) cube([60,60,6]);}}}
 //
-        // cast corner bracket 
+// cast corner bracket 
 module cornerBracket(){color("silver"){
     difference(){
         cube([20,20,17]);
@@ -29,7 +29,9 @@ module cornerBracket(){color("silver"){
     translate([-1,1.5,6.5]) cube([1,1.85,4]);
     translate([-1,16.65,6.5]) cube([1,1.85,4]);}}
 //
-    module lockCollar8mm(){color("slategray"){difference(){
+// 8 mm lock collar
+module lockCollar8mm(){color("slategray"){difference(){
     cylinder(r=7,h=7);
     translate([0,0,-1]) cylinder(r=4,h=9);
     translate([0,-3,3.5]) rotate([90,0,0]) cylinder(r=2.1,h=5);}}}
+//
