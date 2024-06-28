@@ -29,3 +29,7 @@ module cornerBracket(){color("silver"){
     translate([-1,1.5,6.5]) cube([1,1.85,4]);
     translate([-1,16.65,6.5]) cube([1,1.85,4]);}}
 //
+    module lockCollar8mm(){color("slategray"){difference(){
+    cylinder(r=7,h=7);
+    translate([0,0,-1]) cylinder(r=4,h=9);
+    translate([0,-3,3.5]) rotate([90,0,0]) cylinder(r=2.1,h=5);}}}
