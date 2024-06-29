@@ -1,6 +1,107 @@
 $fa = 1.0;
 $fs = 0.4;
 //
+// V-slot gantry plate 20-80 mm
+module vslotGantry20_80(){color("slategray"){
+    difference(){
+        hull(){
+            translate([3,3,0]) cylinder(r=3,h=3);
+            translate([3,85,0]) cylinder(r=3,h=3);
+            translate([124,3,0]) cylinder(r=3,h=3);
+            translate([124,85,0]) cylinder(r=3,h=3);}
+    // 5.1 mm diameter holes
+    translate([13.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([23.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([33.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([43.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([53.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([63.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([73.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([83.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([93.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([103.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([113.65,23.68,-1]) cylinder(r=2.55,h=5);
+    translate([83.65,13.68,-1]) cylinder(r=2.55,h=5);
+    translate([93.65,13.68,-1]) cylinder(r=2.55,h=5);
+    translate([103.65,13.68,-1]) cylinder(r=2.55,h=5);
+    translate([113.65,13.68,-1]) cylinder(r=2.55,h=5);
+    translate([13.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([23.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([33.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([43.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([53.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([63.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([73.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([83.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([93.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([103.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([113.65,64.32,-1]) cylinder(r=2.55,h=5);
+    translate([83.65,74.32,-1]) cylinder(r=2.55,h=5);
+    translate([93.65,74.32,-1]) cylinder(r=2.55,h=5);
+    translate([103.65,74.32,-1]) cylinder(r=2.55,h=5);
+    translate([113.65,74.32,-1]) cylinder(r=2.55,h=5);
+    translate([33.65,33.68,-1]) cylinder(r=2.55,h=5);
+    translate([43.65,33.68,-1]) cylinder(r=2.55,h=5);
+    translate([63.65,33.68,-1]) cylinder(r=2.55,h=5);
+    translate([83.65,33.68,-1]) cylinder(r=2.55,h=5);
+    translate([93.65,33.68,-1]) cylinder(r=2.55,h=5);
+    translate([33.65,53.68,-1]) cylinder(r=2.55,h=5);
+    translate([43.65,53.68,-1]) cylinder(r=2.55,h=5);
+    translate([63.65,53.68,-1]) cylinder(r=2.55,h=5);
+    translate([83.65,53.68,-1]) cylinder(r=2.55,h=5);
+    translate([93.65,53.68,-1]) cylinder(r=2.55,h=5);
+    translate([53.65,43.68,-1]) cylinder(r=2.55,h=5);
+    translate([63.65,43.68,-1]) cylinder(r=2.55,h=5);
+    translate([73.65,43.68,-1]) cylinder(r=2.55,h=5);
+    translate([83.65,43.68,-1]) cylinder(r=2.55,h=5);
+    translate([93.65,43.68,-1]) cylinder(r=2.55,h=5);
+    translate([103.65,43.68,-1]) cylinder(r=2.55,h=5);
+    translate([113.65,43.68,-1]) cylinder(r=2.55,h=5);
+    translate([48.65,28.68,-1]) cylinder(r=2.55,h=5);
+    translate([78.65,28.68,-1]) cylinder(r=2.55,h=5);
+    translate([48.65,58.68,-1]) cylinder(r=2.55,h=5);
+    translate([78.65,58.68,-1]) cylinder(r=2.55,h=5);
+    // 7.1 mm diameter holes
+    translate([13.65,13.68,-1]) cylinder(r=3.55,h=5);
+    translate([23.65,13.68,-1]) cylinder(r=3.55,h=5);
+    translate([33.65,13.68,-1]) cylinder(r=3.55,h=5);
+    translate([43.65,13.68,-1]) cylinder(r=3.55,h=5);
+    translate([13.65,44,-1]) cylinder(r=3.55,h=5);
+    translate([23.65,44,-1]) cylinder(r=3.55,h=5);
+    translate([33.65,44,-1]) cylinder(r=3.55,h=5);
+    translate([43.65,44,-1]) cylinder(r=3.55,h=5);
+    translate([13.65,74.32,-1]) cylinder(r=3.55,h=5);
+    translate([23.65,74.32,-1]) cylinder(r=3.55,h=5);
+    translate([33.65,74.32,-1]) cylinder(r=3.55,h=5);
+    translate([43.65,74.32,-1]) cylinder(r=3.55,h=5);
+    // small slots
+    hull(){
+        translate([40.25,6,-1]) cylinder(r=1.5,h=5);
+        translate([46.5,6,-1]) cylinder(r=1.5,h=5);}
+    hull(){
+        translate([60.25,6,-1]) cylinder(r=1.5,h=5);
+        translate([66.5,6,-1]) cylinder(r=1.5,h=5);}
+    hull(){
+        translate([80.25,6,-1]) cylinder(r=1.5,h=5);
+        translate([86.5,6,-1]) cylinder(r=1.5,h=5);}
+    hull(){
+        translate([40.25,82,-1]) cylinder(r=1.5,h=5);
+        translate([46.5,82,-1]) cylinder(r=1.5,h=5);}
+    hull(){
+        translate([60.25,82,-1]) cylinder(r=1.5,h=5);
+        translate([66.5,82,-1]) cylinder(r=1.5,h=5);}
+    hull(){
+        translate([80.25,82,-1]) cylinder(r=1.5,h=5);
+        translate([86.5,82,-1]) cylinder(r=1.5,h=5);}
+    // large slots
+    hull(){
+        translate([53.5,13.68,-1]) cylinder(r=2.5,h=5);
+        translate([73.5,13.68,-1]) cylinder(r=2.5,h=5);}
+    hull(){
+        translate([53.5,74.32,-1]) cylinder(r=2.5,h=5);
+        translate([73.5,74.32,-1]) cylinder(r=2.5,h=5);}}}
+}
+//
 //build plate
 module buildPlate(){color("slategray"){
 difference(){
