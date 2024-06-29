@@ -1,6 +1,61 @@
 $fa = 1.0;
 $fs = 0.4;
 //
+// C-beam gantry
+module cBeamGantry(){color("slategray"){difference(){
+    hull(){
+        translate([4.635,4.635,0]) cylinder(r=4.635,h=6);
+        translate([72.515,4.635,0]) cylinder(r=4.635,h=6);
+        translate([4.635,72.515,0]) cylinder(r=4.635,h=6);
+        translate([72.515,72.515,0]) cylinder(r=4.635,h=6);}
+    // 4.2 mm diameter holes
+    translate([18.575,18.575,-1]) cylinder(r=2.1,h=8);
+    translate([18.575,58.575,-1]) cylinder(r=2.1,h=8);
+    translate([58.575,18.575,-1]) cylinder(r=2.1,h=8);
+    translate([58.575,58.575,-1]) cylinder(r=2.1,h=8);
+    translate([28.575,8.575,-1]) cylinder(r=2.1,h=8);
+    translate([28.575,68.575,-1]) cylinder(r=2.1,h=8);
+    translate([48.575,8.575,-1]) cylinder(r=2.1,h=8);
+    translate([48.575,68.575,-1]) cylinder(r=2.1,h=8);
+    // 5.1 mm diameter holes
+    translate([8.575,8.575,-1]) cylinder(r=2.55,h=8);
+    translate([8.575,24.375,-1]) cylinder(r=2.55,h=8);
+    translate([8.575,38.575,-1]) cylinder(r=2.55,h=8);
+    translate([8.575,68.575,-1]) cylinder(r=2.55,h=8);
+    translate([18.575,28.575,-1]) cylinder(r=2.55,h=8);
+    translate([18.575,48.575,-1]) cylinder(r=2.55,h=8);
+    translate([28.618,28.618,-1]) cylinder(r=2.55,h=8);
+    translate([28.618,48.618,-1]) cylinder(r=2.55,h=8);
+    translate([38.618,28.618,-1]) cylinder(r=2.55,h=8);
+    translate([38.618,48.618,-1]) cylinder(r=2.55,h=8);
+    translate([38.575,18.575,-1]) cylinder(r=2.55,h=8);
+    translate([38.575,58.575,-1]) cylinder(r=2.55,h=8);
+    translate([48.599,38.606,-1]) cylinder(r=2.55,h=8);
+    translate([18.575,48.575,-1]) cylinder(r=2.55,h=8);
+    translate([58.575,28.575,-1]) cylinder(r=2.55,h=8);
+    translate([58.575,48.575,-1]) cylinder(r=2.55,h=8);
+    translate([68.575,8.575,-1]) cylinder(r=2.55,h=8);
+    translate([68.575,24.375,-1]) cylinder(r=2.55,h=8);
+    translate([68.575,38.575,-1]) cylinder(r=2.55,h=8);
+    translate([68.575,68.575,-1]) cylinder(r=2.55,h=8);
+    // 7.2 mm diameter holes
+    translate([8.796,52.848,-1]) cylinder(r=3.6,h=8);
+    translate([68.592,52.848,-1]) cylinder(r=3.6,h=8);
+    // slot
+    hull(){
+        translate([28.618,38.606,-1]) cylinder(r=2.55,h=8);
+        translate([38.606,38.606,-1]) cylinder(r=2.55,h=8);}
+    // recesses
+    translate([8.575,24.325,4.5]) cylinder(r=4.5,h=2);
+    translate([68.575,24.325,4.5]) cylinder(r=4.5,h=2);
+    translate([8.575,52.825,4.5]) cylinder(r=6,h=2);
+    translate([68.575,52.825,4.5]) cylinder(r=6,h=2);
+    hull(){
+        translate([28.545,28.545,4.5]) cylinder(r=4.92,h=2);
+        translate([28.545,48.605,4.5]) cylinder(r=4.92,h=2);
+        translate([48.605,48.605,4.5]) cylinder(r=4.92,h=2);
+        translate([48.605,28.545,4.5]) cylinder(r=4.92,h=2);}}}}
+//
 // V-slot gantry plate 20-80 mm
 module vslotGantry20_80(){color("slategray"){
     difference(){
