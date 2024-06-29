@@ -70,13 +70,15 @@ The "spacers.scad" file provides OpenSCAD functions "spacerAl" and spacerNylon" 
 Both of these functions accept a "length" argument for spacer length in mm.  For example: spacerAl(length=40); will produce a 40 mm aluminum spacer.
 
 ## Plates
-The "plates.scad" file provides OpenSCAD functions "buildPlate", "cBeamEndMount", and "vslotGantry20_80" that model the following parts:
+The "plates.scad" file provides OpenSCAD functions "buildPlate", "cBeamEndMount", "vslotGantry20_80", "cBeamGantry" that model the following parts:
 
 [C-Beam End Mount](https://openbuildspartstore.com/c-beam-end-mount/)
 
 [Build Plate](https://openbuildspartstore.com/build-plate/)
 
 [V-Slot Gantry Plate - Universal (20-80 mm)](https://openbuildspartstore.com/v-slot-gantry-plate-universal/)
+
+[C-Beam Gantry Plate](https://openbuildspartstore.com/c-beam-gantry-plate/)
 
 ## Connectors
 The "connectors.scad" file provides OpenSCAD functions "join90deg", "cornerBracket", and "lockCollar8mm" that model the following parts:
