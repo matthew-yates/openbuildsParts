@@ -95,6 +95,12 @@ translate([500,440,233]) rotate([0,0,90]) cornerBracket();
 // c-beam gantry plate
 translate([249,340,200]) rotate([90,270,0]) cBeamGantry();
 
+// black angle corner connectors
+translate([180,314,249]) angleCorner();
+translate([220,314,249]) angleCorner();
+translate([200,314,229]) rotate([0,180,0]) angleCorner();
+translate([240,314,229]) rotate([0,180,0]) angleCorner();
+
 //lock collars
     //x-axis
     translate([20,387.8,210.1]) rotate([0,90,0]) lockCollar8mm();
