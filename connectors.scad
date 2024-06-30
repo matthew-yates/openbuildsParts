@@ -1,6 +1,15 @@
 $fa = 1.0;
 $fs = 0.4;
 //
+// black angle corner connection
+module angleCorner(){color("slategray"){
+    difference(){
+    cube([20,20,20]);
+    translate([-1,0,1]) rotate([45,0,0]) cube([40,40,20]);
+    translate([10,10,-1]) cylinder(r=3.6,h=20);
+    translate([10,10,3.5]) cylinder(r=5.5,h=20);
+    translate([10,2,10]) rotate([270,0,0]) cylinder(r=3.6,h=20);
+    translate([10,-3.5,10]) rotate([270,0,0]) cylinder(r=5.5,h=20);}}}
 // 90 degree joining plate
 module join90deg(){color("silver"){
     difference(){
