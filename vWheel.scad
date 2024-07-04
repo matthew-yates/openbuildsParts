@@ -25,6 +25,6 @@ color("slategray") {translate([0,0,-5.5])
         translate([0,0,-1]) cylinder(r=2.5,h=7);
         translate([0,0,-0.7]) difference(){cylinder(r=6.8,h=1);
             translate([0,0,-1]) cylinder(r=4.3,h=3);}}}
-
+// nut
 color("silver") {translate([0,0,-10.27]) difference(){ {linear_extrude(4.77){regular_polygon(order=6,r=4.619);}}
     translate([0,0,-1]) cylinder(r=2.5,h=6.77);}}
