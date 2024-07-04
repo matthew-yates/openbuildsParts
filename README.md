@@ -102,6 +102,10 @@ spindleMount.scad --> [Router Spindle Mount](https://openbuildspartstore.com/rou
 
 ![Router Spindle Mount](https://github.com/matthew-yates/openbuildsParts/blob/main/images/spindleMount.png)
 
+vWheel.scad --> [Solid V Wheel Kit](https://openbuildspartstore.com/solid-v-wheel-kit/)
+
+![Solid V Wheel](https://github.com/matthew-yates/openbuildsParts/blob/main/images/vWheel.png)
+
 ## Example of using functions to build a machine model
 
 The file "cBeamMachine.scad" is an example of combining the functions to build a machine.  It provides a rough model of the [C-beam machine](https://openbuildspartstore.com/openbuilds-c-beam-machine/).  An image of this model is shown below.
